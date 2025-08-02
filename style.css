@@ -1,0 +1,52 @@
+body {
+  background: #c2ded1;
+  font-family: "Nunito", sans-serif;
+}
+/* Kode pemanggil navbar dari bootstrap class= navbar dengan css diawali simbol # */
+#navbar {
+  font-size: 1.5 rem;
+  font-weight: 100;
+}
+/* posisi tulisan logo tulisan navbar (Museum) */
+#navbar .navbar-brand {
+  color: aliceblue;
+  font-size: 1.5rem;
+}
+/* mengatur tulisan atau posisi navbar (Home,About, Ticket) */
+#navbar .nav-link {
+  color: white;
+}
+/* Guna untuk jika kena cursor berubah warna */
+#navbar .nav-link:hover {
+  color: red;
+}
+
+.navbar.scrolled {
+  background-color: #c2ded1;
+  /* transition: background 500ms; */
+}
+
+#title-head {
+  font-weight: 100;
+  font-size: 4rem;
+}
+
+.blurb h2 {
+  color: #354259;
+  font-weight: 100;
+  font-size: 2.5rem;
+}
+
+.blurb p {
+  color: #3f4e4f;
+  font-weight: 100;
+  font-size: 1.125rem;
+  line-height: 2;
+}
+
+@media (max-width: 1200px) {
+  #title.head h1 {
+    font-weight: 100;
+    font-size: 3rem;
+  }
+}
